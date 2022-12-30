@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 20px 40px;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+* { // * means all elements
+  box-sizing: border-box; // We are setting the box-sizing property to border-box on all elements. This means that the padding and border of an element is included in its total width and height.
+}
